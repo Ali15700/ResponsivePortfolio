@@ -1,0 +1,19 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: lightcoral;
+        position: relative;
+        top: 70px;
+        
+
+            > * {
+                width: 100vw;
+                height: calc(100vh - 70px);
+                
+             }
+    }
+    
+}

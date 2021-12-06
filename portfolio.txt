@@ -1,0 +1,157 @@
+**************PART 1*******************
+~~~Installation~~~~~~~~~~~~~~
+
+npx create-react-app .
+
+yarn add node-sass
+
+GO ON GOOGLE FONTS ********
+
+1. select font size 
+
+2. Copy link and paste link before title in INDEX.HTML
+
+3.enter STYLE below it and add fontfamily
+	*{FF}
+
+
+#remove useless files
+
+*****************PART 2****************
+
+~~~Components~~~~~~~~~~~~~~
+
+topbar -> Topbar.jsx   topbar.scss
+
+intro -> Intro.jsx	intro.scss
+
+portfolio -> Portfolio.jsx 	portfolio.scss
+
+
+works -> Works.jsx	work.scss
+
+testimonials-> tt.jsx tt.scss
+
+contact -> .jsx  .scss
+
+
+*****************PART 3****************
+
+~~~~~~~REACT SCROLL~~~~~~~~~~
+
+We add snap scroll functions 
+
+ scroll-snap-type: y mandatory;
+ scrollbar-width: none;
+ scroll-snap-align: start;
+
+*****************PART 4****************
+
+~~~~~~~REACT NAVBAR~~~~~~~~~~
+
+align items 
+and by clicking on geeky you hit the Intro
+
+*****************PART 5****************
+
+~~~~~~~UsingMaterialUIicons with REACT~~~~~~~~~~
+
+yarn add @material-ui/core
+
+yarn add @material-ui/icons
+
+
+import icons
+
+and then mention them
+
+we use material icon cuz we can change colors and size of icon in material ui icons
+
+*****************PART 6****************
+
+~~~~~~~ REACT animated hamburger menu~~~~~~~~~~
+
+we use useState to transform it.
+first we intialize with False but when we clicked on HAMBURGER. it will OpenMenu..
+
+
+*****************PART 7****************
+
+~~~~~~~ REACT sidebar menu~~~~~~~~~~
+
+we create MENU Folder and menu by using simpel scss and useState...
+
+
+*****************PART 8****************
+
+~~~~~~~ REACT Intro~~~~~~~~~~
+
+divide the flex into 2 parts and hidden overflow and 1 part of pic and other for name and desc.
+
+
+*****************PART 9****************
+
+~~~~~~~ REACT text typing animation~~~~~~~~~~
+
+yarn add ityped
+
+import the library
+
+by useEffect we will change names.
+
+ 
+*****************PART 10****************
+
+~~~~~~~ REACT portfolio page~~~~~~~~~~
+
+so we design flex wrap 
+
+*****************PART 11****************
+
+~~~~~~~ REACT adding dynamic active class~~~~~~~~~~
+we moved all list portfolios on portfolioList folder..
+
+through ID we are getting selected item
+
+ Map is a collection of elements where each element is stored as a Key, value pair. Map object can hold both objects and primitive values as either key or value. When we iterate over the map object it returns the key,value pair in the same order as inserted
+
+
+----npx browserslist@latest --update-db------ 
+
+npx browserslist@latest --update-db updates caniuse-lite version in your npm, yarn or pnpm lock file. You need to do it regularly for two reasons: To use the latest browser's versions and statistics in queries like last 2 versions or >1% . ... caniuse-lite deduplication: to synchronize version in different tools.
+
+
+------------------------------------------    
+*****************PART 12****************
+
+~~~~~~~ REACT adding dynamic use Effect~~~~~~~~~~
+
+we stored data to related list in DATA.JS
+Set data through useState and useEffect to switch between 
+
+*****************PART 13****************
+
+~~~~~~ how to REACT work page~~~~~~~~~
+it will move (-100vw) ..we made Array of DATA in which we add requirement and then access by using Selector (use MAP Function to access attributes) after Cick it will transform 100vw ...
+
+*****************PART 14****************
+
+~~~~~~ testimonials~~~~~~~~~
+
+We created DATA array same like contact page.divided into three parts TOP CENTER BOTTOM ..
+
+
+*****************PART 15****************
+
+~~~~~~ Contact~~~~~~~~~
+we divide into two LEft and RiGht
+left = "Pic"
+Right = heading and input textarea button
+
+*****************PART 16****************
+
+~~~~~~ Responsive~~~~~~~~~
+
+we set fixed width and changes during requirements because we change acc to it
+
+
